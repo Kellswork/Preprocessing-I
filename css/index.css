@@ -191,3 +191,33 @@ body {
   z-index: 1;
   padding-top: 2rem;
 }
+.personal-info {
+  width: 100%;
+  display: flex;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+}
+.personal-info .about-me {
+  width: 50%;
+}
+.personal-info .about-me h3 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.personal-info .about-me p {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.personal-info .about-me-img {
+  width: 40%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.personal-info .about-me-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 80%;
+}
