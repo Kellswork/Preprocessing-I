@@ -209,11 +209,7 @@ body {
   width: 50%;
 }
 .personal-info .about-me h3 {
-<<<<<<< HEAD
-  font-size: 3rem ;
-=======
-  font-size: ;
->>>>>>> e623f7f8a1cc2fd13d0e0ac158545700726b0877
+  font-size: 3rem;
   padding-bottom: 2rem;
 }
 .personal-info .about-me p {
