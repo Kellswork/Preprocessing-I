@@ -1,3 +1,4 @@
+/* my code */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -137,7 +138,6 @@ html,
 body {
   height: 100%;
 }
-/* my code */
 /*style for container */
 .container {
   max-width: 880px;
