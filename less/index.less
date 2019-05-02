@@ -199,11 +199,14 @@ body {
   }
 }
 .personal-info {
+  background: white;
   width: 100%;
   display: flex;
-  padding-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 1.5rem;
+  box-shadow: 0px 0px 2px 2px #00000014;
 
   .about-me {
     width: 50%;
@@ -228,17 +231,18 @@ body {
     img {
       width: 200px;
       height: 200px;
-      border-radius: 80%;
+	  border-radius: 80%;
+	  border: 1px solid rgb(47, 216, 238);
     }
   }
 }
 .work-info {
   display: flex;
-  padding-left: 2rem;
-  padding-right: 1.5rem;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  padding: 2rem;
+  margin-top: 3rem;
   justify-content: center;
+  background: white;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.078);
 
   .skills {
     width: 50%;
@@ -281,10 +285,10 @@ body {
 }
 
 .contact {
-  padding-right: 1.5rem;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  padding-left: 2rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.078);
 
     h3 {
       font-size: 3rem;
@@ -303,10 +307,24 @@ body {
 				padding: 0.5rem;
 				margin-top: 1rem; 
 				margin-bottom: 1rem;
+				font-size: 1.3rem;
+				border: 1px solid rgb(171, 233, 241);
+				outline: none;
+			}
+			input:focus {
+			box-shadow: 0px 0px 1px 2px rgb(47, 216, 238);
+
 			}
 			textarea {
 				width: 100%;
 				margin-top: 1rem;
+				border: 1px solid rgb(171, 233, 241);
+				outline: none;
+			}
+			textarea:focus {
+				box-shadow: 0px 0px 1px 2px rgb(47, 216, 238);
+				padding: 0.5rem;
+				font-size: 1.3rem;
 			}
 		}
 	}
@@ -314,6 +332,6 @@ body {
 footer {
 	font-size: 1.6rem;
 	text-align: center;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
