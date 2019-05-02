@@ -263,3 +263,36 @@ body {
   font-size: 1.6rem;
   padding-bottom: 2rem;
 }
+.contact {
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+.contact h3 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.contact .contact-form {
+  width: 50%;
+}
+.contact .contact-form .contact-details label {
+  font-size: 1.6rem;
+}
+.contact .contact-form .contact-details input {
+  width: 100%;
+  height: 3.5rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact .contact-form .contact-details textarea {
+  width: 100%;
+  margin-top: 1rem;
+}
+footer {
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
