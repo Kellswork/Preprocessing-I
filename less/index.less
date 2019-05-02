@@ -143,7 +143,7 @@ body {
 /* my code */
 //import colors 
 @import "colors.less";
-
+@import "font.less";
 
 /*style for container */
 .container {
@@ -193,12 +193,12 @@ body {
     height: 80%;
 
     h1 {
-      font-size: 4rem;
+      font-size: @h1fontSize;
       color: @white;
       z-index: 0;
     }
     p {
-      font-size: 3rem;
+      font-size: @h3fontSize;
       color: @transparentWhite;
       z-index: 1;
       padding-top: 2rem;
@@ -219,11 +219,11 @@ body {
     width: 50%;
 
     h3 {
-      font-size: 3rem;
+      font-size: @h3fontSize;
       padding-bottom: 2rem;
     }
     p {
-      font-size: 1.6rem;
+      font-size: @mediumFontSize;
       line-height: 1.2;
     }
   }
@@ -255,12 +255,12 @@ body {
     width: 50%;
 
     h3 {
-      font-size: 3rem;
+      font-size: @h3FontSize;
       padding-bottom: 2rem;
     }
 
     ul {
-      font-size: 1.6rem;
+      font-size: @mediumFontSize;
       list-style-type: square;
       padding-left: 1.5rem;
       line-height: 1.5;
@@ -277,15 +277,15 @@ body {
     padding-left: 6.5rem;
 
     h3 {
-      font-size: 3rem;
+      font-size: @h3FontSize;
       padding-bottom: 2rem;
     }
     h4 {
       font-weight: bold;
-      font-size: 1.6rem;
+      font-size: @mediumFontSize;
     }
     p {
-      font-size: 1.6rem;
+      font-size: @mediumFontSize;
       padding-bottom: 2rem;
     }
   }
@@ -298,7 +298,7 @@ body {
   box-shadow: 0px 0px 2px 2px @shadowColor;
 
     h3 {
-      font-size: 3rem;
+      font-size: @h3FontSize;
       padding-bottom: 2rem;
 	}
 	.contact-form {
@@ -306,7 +306,7 @@ body {
 
 		.contact-details {
 			label {
-				font-size: 1.6rem;
+				font-size: @mediumFontSize;
 			}
 			input {
 				width: 100%;
@@ -314,7 +314,7 @@ body {
 				padding: 0.5rem;
 				margin-top: 1rem; 
 				margin-bottom: 1rem;
-				font-size: 1.3rem;
+				font-size: @inputFontSize;
 				border: 1px solid @inputBorder;
 				outline: none;
 			}
@@ -331,13 +331,13 @@ body {
 			textarea:focus {
 				box-shadow: 0px 0px 1px 2px @inputFocusColor;
 				padding: 0.5rem;
-				font-size: 1.3rem;
+				font-size: @inputFontSize;
 			}
 		}
 	}
 }
 footer {
-	font-size: 1.6rem;
+	font-size: @mediumFontSize;
 	text-align: center;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
