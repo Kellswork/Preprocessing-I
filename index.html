@@ -1,11 +1,13 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume</title>
 
+  <link rel="stylesheet/less" type="text/css" href="less/index.less" />
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,6 +16,86 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <section class="intro">
+      <div class="overlay"></div>
+      <header class="header">
+        <nav class="nav-links">
+          <a href="#">home</a>
+          <a href="#">services</a>
+          <a href="#">blog</a>
+          <a href="#">contact</a>
+        </nav>
+        <div class="intro-text">
+          <h1>Hi I'm Kelechi Ogbonna</h1>
+          <p>Full Stack Web Developer</p>
+        </div>
+      </header>
+    </section>
+
+
+    <section class="personal-info">
+      <div class="about-me">
+        <h3>About Me</h3>
+        <p>
+          As a person who enjoys looking for solutions to problems, who sees challenges as a way to grow,
+          it's easy to see why I fell in love with programming. Being given the oppurturnity to help people solve their
+          problems
+          through building softwares has been my life goal. I enjoy using html and css to build beautiful web page
+          design
+          and
+          javascript to add magic to the page, while delivery simple and beautiful work.
+        </p>
+      </div>
+      <div class="about-me-img">
+        <img src="image/kell.jpg" alt="" srcset="">
+      </div>
+    </section>
+
+    <section class="work-info">
+      <div class="skills">
+          <h3>My Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/LESS</li>
+            <li>Javascript</li>
+            <li>PostgreSQL</li>
+            <li>NodeJS</li>
+          </ul>
+      </div>
+    <div class="work-history">
+        <h3> Work History</h3>
+        <div>
+        <h4>Accenture</h4>
+        <p>Worked as an office help desk</p>
+      </div>
+      <div>
+          <h4>Notore</h4>
+          <p>Worked as an assistant networking officer</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h3>Get In Touch With Me</h3>
+      <form action="#" class="contact-form">
+        <div class="contact-details">
+          <label for="name">Name</label>
+          <input type="text">
+        </div>
+        <div class="contact-details">
+          <label for="email">Email</label>
+          <input type="text">
+        </div>
+        <div class="contact-details">
+          <label for="email">Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </section>
+    <footer>
+      <p>kelechi ogbonna &copy 2019</p>
+    </footer>
+  </div>
+
 </body>
+
 </html>
