@@ -137,6 +137,7 @@ table {
 html,
 body {
   height: 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 /*style for container */
 .container {
