@@ -180,61 +180,62 @@
     font-size: @h3fontSize;
     padding-bottom: 2rem;
   }
-  .contact-form {
-    width: 50%;
+}
+.contact-form {
+  width: 50%;
 
-    .contact-details {
-      label {
-        font-size: @mediumFontSize;
-      }
-      input {
-        width: 100%;
-        height: 3.5rem;
-        padding: 0.5rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: @inputFontSize;
-        border: 1px solid @inputBorder;
-        outline: none;
-        border-radius: 4px;
-
-        &:focus {
-          box-shadow: 0px 0px 1px 2px @inputFocusColor;
-        }
-      }
-
-      textarea {
-        width: 100%;
-        margin-top: 1rem;
-        border: 1px solid @inputBorder;
-        outline: none;
-        border-radius: 4px;
-
-        &:focus {
-          box-shadow: 0px 0px 1px 2px @inputFocusColor;
-          padding: 0.5rem;
-          font-size: @inputFontSize;
-        }
-      }
+  .contact-details {
+    label {
+      font-size: @mediumFontSize;
     }
-    button {
+    input {
+      width: 100%;
+      height: 3.5rem;
+      padding: 0.5rem;
       margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: @inputFontSize;
       border: 1px solid @inputBorder;
-      height: 3rem;
-      width: 50%;
-      background: @inputBorder;
-      color: @white;
+      outline: none;
       border-radius: 4px;
 
-      &:hover {
-        background: @inputFocusColor;
+      &:focus {
+        box-shadow: 0px 0px 1px 2px @inputFocusColor;
       }
     }
-    @media @mediaMobile {
+
+    textarea {
       width: 100%;
+      margin-top: 1rem;
+      border: 1px solid @inputBorder;
+      outline: none;
+      border-radius: 4px;
+
+      &:focus {
+        box-shadow: 0px 0px 1px 2px @inputFocusColor;
+        padding: 0.5rem;
+        font-size: @inputFontSize;
+      }
     }
   }
+  button {
+    margin-top: 1rem;
+    border: 1px solid @inputBorder;
+    height: 3rem;
+    width: 50%;
+    background: @inputBorder;
+    color: @white;
+    border-radius: 4px;
+
+    &:hover {
+      background: @inputFocusColor;
+    }
+  }
+  @media @mediaMobile {
+    width: 100%;
+  }
 }
+
 footer {
   font-size: @mediumFontSize;
   text-align: center;

@@ -327,13 +327,13 @@ body {
   font-size: 3rem;
   padding-bottom: 2rem;
 }
-.contact .contact-form {
+.contact-form {
   width: 50%;
 }
-.contact .contact-form .contact-details label {
+.contact-form .contact-details label {
   font-size: 1.6rem;
 }
-.contact .contact-form .contact-details input {
+.contact-form .contact-details input {
   width: 100%;
   height: 3.5rem;
   padding: 0.5rem;
@@ -344,22 +344,22 @@ body {
   outline: none;
   border-radius: 4px;
 }
-.contact .contact-form .contact-details input:focus {
+.contact-form .contact-details input:focus {
   box-shadow: 0px 0px 1px 2px #2fd8ee;
 }
-.contact .contact-form .contact-details textarea {
+.contact-form .contact-details textarea {
   width: 100%;
   margin-top: 1rem;
   border: 1px solid #abe9f1;
   outline: none;
   border-radius: 4px;
 }
-.contact .contact-form .contact-details textarea:focus {
+.contact-form .contact-details textarea:focus {
   box-shadow: 0px 0px 1px 2px #2fd8ee;
   padding: 0.5rem;
   font-size: 1.3rem;
 }
-.contact .contact-form button {
+.contact-form button {
   margin-top: 1rem;
   border: 1px solid #abe9f1;
   height: 3rem;
@@ -368,11 +368,11 @@ body {
   color: white;
   border-radius: 4px;
 }
-.contact .contact-form button:hover {
+.contact-form button:hover {
   background: #2fd8ee;
 }
 @media (max-width:550px) {
-  .contact .contact-form {
+  .contact-form {
     width: 100%;
   }
 }
