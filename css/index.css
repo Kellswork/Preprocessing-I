@@ -161,7 +161,7 @@ body {
 .header {
   background: url(/image/img3.jpg) no-repeat;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background-size: cover;
   background-position: center;
 }
@@ -184,6 +184,11 @@ body {
   text-transform: capitalize;
   font-size: 1.6rem;
   padding-top: 1rem;
+}
+@media (max-width:550px) {
+  .header .nav-links {
+    justify-content: space-evenly;
+  }
 }
 .header .intro-text {
   display: flex;
@@ -226,6 +231,16 @@ body {
 .personal-info .about-me p {
   font-size: 1.6rem;
   line-height: 1.2;
+  padding: 0.2em;
+}
+@media (max-width:550px) {
+  .personal-info .about-me {
+    width: 100%;
+  }
+  .personal-info .about-me h3 {
+    text-align: center;
+    padding-top: 2rem;
+  }
 }
 .personal-info .about-me-img {
   display: flex;
@@ -240,6 +255,18 @@ body {
   height: 200px;
   border-radius: 80%;
   border: 1px solid #abe9f1;
+}
+@media (max-width:550px) {
+  .personal-info .about-me-img {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width:550px) {
+  .personal-info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 .work-info {
   display: flex;
@@ -284,6 +311,11 @@ body {
   font-size: 1.6rem;
   padding-bottom: 2rem;
 }
+@media (max-width:550px) {
+  .work-info .work-history {
+    padding-left: 0;
+  }
+}
 .contact {
   margin-top: 3rem;
   padding: 2rem;
@@ -309,6 +341,7 @@ body {
   font-size: 1.3rem;
   border: 1px solid #abe9f1;
   outline: none;
+  border-radius: 4px;
 }
 .contact .contact-form .contact-details input:focus {
   box-shadow: 0px 0px 1px 2px #2fd8ee;
@@ -318,11 +351,17 @@ body {
   margin-top: 1rem;
   border: 1px solid #abe9f1;
   outline: none;
+  border-radius: 4px;
 }
 .contact .contact-form .contact-details textarea:focus {
   box-shadow: 0px 0px 1px 2px #2fd8ee;
   padding: 0.5rem;
   font-size: 1.3rem;
+}
+@media (max-width:550px) {
+  .contact .contact-form {
+    width: 100%;
+  }
 }
 footer {
   font-size: 1.6rem;
