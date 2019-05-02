@@ -145,6 +145,7 @@ body {
 @import "colors.less";
 @import "font.less";
 @import "mixins.less";
+@import "variables.less";
 
 /*style for container */
 .container {
@@ -206,9 +207,9 @@ body {
   }
 }
 .personal-info {
+  .flex-display();
   background: @white;
   width: 100%;
-  display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 2rem;
@@ -226,14 +227,13 @@ body {
       font-size: @mediumFontSize;
       line-height: 1.2;
     }
+
   }
 
   .about-me-img {
+    .flex-display(row, flex-end, center);
     width: 40%;
     box-sizing: border-box;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 
     img {
       width: 200px;
@@ -244,10 +244,9 @@ body {
   }
 }
 .work-info {
-  display: flex;
+  .flex-display(row, center);
   padding: 2rem;
   margin-top: 3rem;
-  justify-content: center;
   background: @white;
   box-shadow: 0px 0px 2px 2px @shadowColor;
 
